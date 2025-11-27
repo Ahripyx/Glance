@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# node / python / builds
+node_modules/
+dist/
+build/
+
+#docker / compose local overrides / logs
+docker-compose.override.yml
+*.log
+
+# Environment / secrets
+.env
+.env local
+.env.*.local
+secrets.yml
+config.yml
+*.secret
+*.pem
+*.key
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
